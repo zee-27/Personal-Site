@@ -1,0 +1,150 @@
+.first-container{
+background-color: #129990 ;
+
+
+display: flex;
+flex-direction: column;
+
+
+  
+}
+.second-container{
+    background-color: #90D1CA;
+    
+   
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+
+}
+.third-container{
+background-color: #F2C078;   
+display: flex;
+flex-direction: column;
+padding-top: 30px;
+}
+
+.first{
+    align-self: end;
+    margin-right: 150px;
+    margin-top: 35px;
+}
+.second{
+    align-self: center;
+    margin-top: 80px;
+    
+}
+.third{
+align-self: center;
+margin-top: auto;
+
+
+}
+.youga {
+    
+    border-radius: 50%;
+    width:  400px;
+
+ 
+}
+.dav{
+   height: 200px;
+   width: 300px;
+   
+   
+    
+}
+
+.dev{
+text-decoration: underline;
+}
+.welcome{
+    font-size: 70px;
+    font-family: "Sacramento", cursive;
+    color: #F2C078;
+}
+.title{
+    color: #F2C078;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+       margin-left: 130px;
+}
+.profile-pic{
+    height: 300px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 60px;
+}
+.hello{
+    align-self: center;
+    margin-top: 80px;
+}
+.paragraph{
+     align-self: center;
+    text-align: center;
+}
+
+
+.my-skils{
+      align-self: center;
+      margin-top: 100px;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.container {
+      /*height: 100vh;*/
+      display: grid;
+      margin-top: 7rem;
+      margin-bottom: 7%;
+      max-width: 50rem;
+      gap: .5rem;
+      grid-template-columns: 1fr 2fr  ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      
+    }
+    .full-img{
+max-width: 12rem;        
+height: 100%;
+ display: flex;
+     
+    }
+    .center {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .no-bullets{
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .skils{
+        
+ font-family: "Montserrat", sans-serif;
+ line-height: 2;
+    }
+    
+
+
+
+   @media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1.3fr;
+   
+  }
+ 
+   
+
+  
+}
+
+ 
+ 
